@@ -45,3 +45,19 @@ d = False
 print(c)
 type(c)
 
+#Printing
+name = 'Budi'
+age = 17
+print('Hello i am ' + name + ' i am ' + str(age) + ' years old')
+print('Hello i am ', name, ' i am ' ,age, ' years old')
+
+#Selain cara diatas, kita bisa menggunakan string formatting seperti berikut:
+
+# Old Style
+print('Hello i am %s i am %d years old' % (name, age))
+# 'New Style' string formatting
+print('Hello i am {0} i am {1} years old'.format(name, age))
+# String interpolation
+print(f'Hello i am {name} i am {age} years old')
+
+ 
