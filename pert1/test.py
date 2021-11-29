@@ -68,3 +68,6 @@ D = A / B
 print(C)
 print(D)
 
+#Mengubah float menjadi int
+D = int(A / B)
+print(D)
