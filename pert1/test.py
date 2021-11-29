@@ -21,3 +21,27 @@ print ('h:', h)
 print ('i:', i)
 
 
+#integer
+x = 2
+print(x)
+type(x)
+
+#float
+x = 2.5
+print(x)
+type(x)
+
+#string
+a = 'hello'
+b = "hello 2"
+print(a)
+print(b)
+type(a)
+type(b)
+
+#boolean
+c = True
+d = False
+print(c)
+type(c)
+
