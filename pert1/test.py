@@ -71,3 +71,10 @@ print(D)
 #Mengubah float menjadi int
 D = int(A / B)
 print(D)
+type(D)
+
+#mengubah number menjadi string
+number = 100000
+number = str(number)
+print(number)
+type(number)
