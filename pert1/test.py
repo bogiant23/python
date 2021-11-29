@@ -60,4 +60,11 @@ print('Hello i am {0} i am {1} years old'.format(name, age))
 # String interpolation
 print(f'Hello i am {name} i am {age} years old')
 
- 
+ # Aritmatika
+A = 12
+B = 2
+C = A + B
+D = A / B
+print(C)
+print(D)
+
