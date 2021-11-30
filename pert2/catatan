@@ -13,3 +13,18 @@ yang sama
 
 Akses data list
 untuk mengakses data list, python menggunakan sesuatu bernama index dari 0
+
+
+TUPLE
+tuple juga merupakan struktur data yang digunakan untuk menyimpan satu atau 
+lebih data di dalamnya. Perbedaanya terletak pada kemampuan untuk melakukan 
+perubahan anggota. Anggota pada tuple tidak dapat diubah sebagian, akan tetapi 
+dapat diubah keseluruhan dengan memanfaatkan melakukan inisiasi variabel dengan 
+nilai yang baru. Inisiasi variabel tuple dilakukan dengan menggunakan tanda kurung '()'.
+
+Kenapa Menggunakan Tuple?
+Dengan semua keterbatasan yang dimiliki mungkin akan timbul pertanyaan, kenapa harus tuple dibandingkan list. Ada tiga poin utama yang bisa dijelaskan,
+
+1. Karena strukturnya lebih sederhana, struktur data tuple memakan memori lebih sedikit dibandingkan dengan list. Untuk data yang berukuran besar ini akan sangat menguntungkan.
+2. Memori yang lebih sedikit juga mempengaruhi waktu proses dari tuple. Tuple memiliki waktu proses yang relatif lebih singkat daripada list.
+3. Anggota yang tidak dapat diubah membuat tuple menjadi pilihan saat kita ingin menggunakannya untuk menyimpan suatu parameter yang tidak boleh berubah nilainya.
