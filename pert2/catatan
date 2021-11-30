@@ -28,3 +28,16 @@ Dengan semua keterbatasan yang dimiliki mungkin akan timbul pertanyaan, kenapa h
 1. Karena strukturnya lebih sederhana, struktur data tuple memakan memori lebih sedikit dibandingkan dengan list. Untuk data yang berukuran besar ini akan sangat menguntungkan.
 2. Memori yang lebih sedikit juga mempengaruhi waktu proses dari tuple. Tuple memiliki waktu proses yang relatif lebih singkat daripada list.
 3. Anggota yang tidak dapat diubah membuat tuple menjadi pilihan saat kita ingin menggunakannya untuk menyimpan suatu parameter yang tidak boleh berubah nilainya.
+
+
+SET
+Set atau dalam bahasa Indonesia bisa disebut himpunan, merupakan struktur data yang dapat memiliki satu atau lebih anggota didalamnya. Terdapat 2 perbedaan utama antara set dengan list atau tuple, yaitu:
+
+1. Set tidak memiliki koordinat/index tiap anggotanya, jadi untuk set posisi anggota dianggap tidak penting.
+2. Set tidak dapat memiliki lebih dari satu anggota dengan nilai yang sama
+
+Untuk menginisiasi suatu variabel set ada dua cara yang dapat digunakan. Pertama dengan menggunakan tanda kurung kurawal "{}" atau dengan menggunakan metode set(). Metode set() biasanya digunakan untuk inisiasi set kosong atau untuk mengubah list/tuple menjadi set.
+
+
+Dictionary
+Dictionary adalah suatu topik yang sangat penting dalam python dan data science. Karena dictionary seperti penyusun untuk suatu objek yang lebih kompleks seperti pandas dataframe yang akan kita pelajari nanti. Jadi, dictionary ini adalah salah satu jenis tipe data di python yang memetakan antara key dan value dari suatu data. Berikut contohnya:  
