@@ -1,0 +1,15 @@
+Data structure
+data structure built in type, artinya pada suatu variabel bisa terdapat lebih dari
+satu nilai
+
+1. List
+list adalah salah satu tipe data untuk mengoleksikan data di python
+
+sifat list
+- list berisi koleksi nilai/data
+-list bisa berisi tipe data apapun dan tidak harus semua data berisi tipe data
+yang sama
+-list bisa berubah
+
+Akses data list
+untuk mengakses data list, python menggunakan sesuatu bernama index dari 0
