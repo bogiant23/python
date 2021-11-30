@@ -64,3 +64,30 @@ print(murid)
 #menghapus menggunakan remove
 murid.remove('cahyo')
 print(murid)
+
+#fungsi len untuk panjang daftar
+keluarga_ucup = ['mamah', 'papah', 'ucup', 'adek ucup', 'kaka ucup']
+print(len(keluarga_ucup))
+
+#sorted untuk mengurutkan list
+print(sorted(keluarga_ucup))
+
+#sum untuk menjumlahkan
+primes = [2, 3, 5, 7]
+print(sum(primes))
+
+#copy digunakan untuk mengcopy suatu list kedalam list baru dengan nilai sama
+a = [1,2,3,4,5]
+b=a.copy()
+print(a)
+print(b)
+
+#lakukan manipulasi terhadap list b
+b.append(6)
+print(a)
+print(b)
+
+#list comperehension merupakan cara elegan untuk membuat list berdasarkan list yg ada
+number = [1,5,10,6,7,8,12]
+result=[i for i in number if i>7]
+print(result)
