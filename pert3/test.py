@@ -40,3 +40,5 @@ def fungsi_06 (**nama):
     print(key, value)
 
 fungsi_06(nama = 'rudi', umur = 18)
+
+#Fungsi Lambda
