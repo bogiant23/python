@@ -61,3 +61,14 @@ data = [1,2,3,4]
 hasil = list(map(lambda x:x*3,data))
 
 print(hasil)
+
+#method
+# membuat object string
+huruf_kecil = 'huruf_kecil'
+# memanggil salah satu method string
+print(huruf_kecil.upper())
+
+# mendifinisikan object list
+keluarga_ucup = ['mamah', 'papah', 'ucup', 'adek ucup', 'kaka ucup']
+# memanggil method yang dimiliki oleh list
+print(keluarga_ucup.index('ucup'))
